@@ -4,7 +4,7 @@
     --primary-color:#D9F99D;
     --footer-color: #ECFCCB;
     --black: #333333;
-    --width-break: 600px;
+    
 }
 
 * {
@@ -26,13 +26,13 @@ body {
     display: block;
     text-align: center;
     background-color: var(--primary-color);
-    /* margin: 0px; */
+ 
 }
 
 main {
     margin: auto;
     padding: 1rem;
-    max-width: var(--width-break);
+    max-width: 600px;
 }
 
 
@@ -94,6 +94,6 @@ footer div {
 }
 
 footer p {
-    max-width: var(--width-break);
+    max-width: 600px;
     margin: auto;
 }
